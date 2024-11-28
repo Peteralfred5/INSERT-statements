@@ -67,7 +67,7 @@ ADD COLUMN sold BOOLEAN DEFAULT FALSE;
 
 DELETE from DKbil where pris like '%(%';
 
--- lololololololololololplol
+-- Opdateret DKbil
 -- 1. Opdater "sold" kolonnen i `sales_details` for biler, der ikke længere er til salg
 UPDATE sales_details
 SET sold = TRUE
